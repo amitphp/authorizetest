@@ -2,19 +2,19 @@
 
 <form action="https://test.authorize.net/gateway/transact.dll" method="post" id="authorize_payment_form">
    <input type="hidden" name="x_login" value="37s9nGgXm">
-   <input type="hidden" name="x_amount" value="1123.33">
-   <input type="hidden" name="x_invoice_num" value="647603000003790001">
+   <input type="hidden" name="x_amount" value="5114.29">
+   <input type="hidden" name="x_invoice_num" value="647603000003833001">
    <input type="hidden" name="x_relay_response" value="TRUE">
-   <input type="hidden" name="x_relay_url" value="http://3.83.164.227/hattons">
+   <input type="hidden" name="x_relay_url" value="http://3.83.164.227/authorize/redirect.php">
  <!--  <input type="hidden" name="x_tran_key" value ="6zxmWCZ673qMQ75h"> -->
   <!--  <input type="hidden" name="x_relay_url" value="http://localhost/authorize/redirect.php"> -->
-   <input type="hidden" name="x_fp_sequence" value="647603000003790001">
+   <input type="hidden" name="x_fp_sequence" value="647603000003833001">
   <!--  <input type="hidden" name="x_currency_code" value="USD"> -->
-   <input type="hidden" name="x_fp_hash" value="233936c7c78815955e9c514f1ab74123">
+   <input type="hidden" name="x_fp_hash" value="6bc456e1895ad2b31c0726f6bcbe307b">
    <input type="hidden" name="x_show_form" value="PAYMENT_FORM">
    <input type="hidden" name="x_version" value="3.1">
-   <input type="hidden" name="x_fp_timestamp" value="1549515814">
-   <input type="hidden" name="x_cancel_url" value="http://3.83.164.227/hattons">
+   <input type="hidden" name="x_fp_timestamp" value="1549611245">
+   <input type="hidden" name="x_cancel_url" value="http://3.83.164.227/authorize/redirect.php">
    <input type="hidden" name="x_cancel_url_text" value="Cancel Payment">
    <input type="hidden" name="x_type" value="AUTH_CAPTURE">
    <input type="hidden" name="x_test_request" value="FALSE">
